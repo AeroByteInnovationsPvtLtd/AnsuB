@@ -1,0 +1,104 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/style.css">
+   <script>
+    let sound = document.getElementById("sound");
+    function clickDrum(drumid){
+       switch(drumid){
+        case "kit1":
+            document.getElementById("sound1").play();
+            
+            break;
+        case "kit2":
+            document.getElementById("sound2").play();
+            break;
+        case "kit3":
+            document.getElementById("sound3").play();
+            break;
+         case "kit4":
+            document.getElementById("sound4").play();
+            break;
+        case "kit5":
+            document.getElementById("sound5").play();
+            break;
+        case "kit6":
+            document.getElementById("sound6").play();
+            break;
+        case "kit7":
+            document.getElementById("sound7").play();
+            break;
+        case "kit8":
+            document.getElementById("sound8").play();
+            break;
+        case "kit9":
+            document.getElementById("sound9").play();
+            break;
+       }
+    }
+    </script>
+</head>
+<body>
+    <div id="bg-body">
+        <div id="kits">
+       <div class="kit" onclick="clickDrum(this.id)" id="kit1">
+        <span class="kit-index">A</span>
+        <span class="kit-sound">CLAP</span>
+       </div>
+       <audio id="sound1" src="../public/image/clap.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit2">
+        <span class="kit-index">S</span>
+        <span class="kit-sound">HIHAT</span>
+       </div>
+       <audio id="sound2" src="../public/image/hihat.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit3">
+        <span class="kit-index">D</span>
+        <span class="kit-sound">NICK</span>
+       </div>
+       <audio id="sound3" src="../public/image/kick.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit4">
+        <span class="kit-index">F</span>
+        <span class="kit-sound">OPENHAT</span>
+       </div>
+       <audio id="sound4" src="../public/image/openhat.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit5">
+        <span class="kit-index">G</span>
+        <span class="kit-sound">BOOM</span>
+       </div>
+       <audio id="sound5" src="../public/image/boom.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit6">
+        <span class="kit-index">H</span>
+        <span class="kit-sound">RIDE</span>
+       </div>
+       <audio id="sound6" src="../public/image/ride.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit7">
+        <span class="kit-index">J</span>
+        <span class="kit-sound">SNARE</span>
+       </div>
+       <audio id="sound7" src="../public/image/snare.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit8">
+        <span class="kit-index">K</span>
+        <span class="kit-sound">TOM</span>
+       </div>
+       <audio id="sound8" src="../public/image/tom.wav" preload="auto"></audio>
+
+       <div class="kit" onclick="clickDrum(this.id)" id="kit9">
+        <span class="kit-index">L</span>
+        <span class="kit-sound">TINK</span>
+       </div>
+       <audio id="sound9" src="../public/image/tink.wav" preload="auto"></audio>
+       </div>
+        
+    </div>
+</body>
+</html>
