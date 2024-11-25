@@ -1,0 +1,325 @@
+/* MediaQuery */
+@media  (max-width:1201px) and (min-width:768px){
+    div.laptop-wrapper{
+       position: absolute;
+     top: 0;
+     left: 30px !important; 
+    } 
+ }
+ @media (max-width:932px) and (min-width:768px) {
+    .carousel-item img {
+     width: 400px !important;
+ }
+ .carousel-item h2{
+    font-size: 30px;
+ }
+ .carousel-item h1{
+    font-size: 38px;
+ }
+ }
+ @media (max-width:768px) and (min-width:689px){
+    div.laptop-wrapper{
+       position: absolute;
+     top: 60px !important;
+     left: 30px !important; 
+    } 
+    .carousel-item img {
+     width: 360px !important;
+ }
+ .carousel-item h2{
+    font-size: 27px;
+ }
+ .carousel-item h1{
+    font-size: 35px;
+ }
+ }
+ @media (max-width:689px) and (min-width:574px){
+    div.laptop-wrapper{
+       position: absolute;
+     top: 60px !important;
+     left: 30px !important; 
+    } 
+    .carousel-item img {
+     width: 300px !important;
+ }
+ .carousel-item h2{
+    font-size: 23px;
+ }
+ .carousel-item h1{
+    font-size: 32px;
+ }
+ .carousel-ab{
+    display: flex;
+ }
+ .carousel-ab button{
+    padding: 10px 18px;
+ }
+ }
+ @media (max-width:576px) and (min-width:480px)
+ {
+    div.laptop-wrapper{
+       position: absolute;
+     top: 60px !important;
+     left: 30px !important; 
+    } 
+    .carousel-item img {
+     width: 400px !important;
+ }
+ .carousel-item-text-as{
+    margin-top: 380px ;
+ }
+ }
+ @media (max-width:479px) and (min-width:321px){
+ div.laptop-wrapper{
+       position: absolute;
+       margin-top: -30px !important;
+     left: 30px !important; 
+    }
+ }
+ @media  (min-width:992px) and (max-width:1023px){
+          
+          .menu-btn {
+               margin: 0px 13px !important;
+                padding: 0px 11px !important; 
+               font-size: 12px;
+           }
+           
+            .osahan-navbar .nav-link {
+               font-size: 13px !important;
+               padding: 10px 7px !important;
+           } }
+ 
+ @media (min-width:375px)
+ {
+    .modal-dialog{
+       margin: 4.5rem auto !important;
+    }
+ }
+ /* social media */
+
+      .btn{
+        box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
+        border: none !important;
+       }
+       
+       
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+      /* --anshucss */
+
+ .modal-backdrop{
+   z-index:0;
+}
+.modal-backdrop.show{
+   opacity: 0;
+} 
+.quote-pera{
+    font-weight: bold;
+    color: gray;
+ }
+ .btnstyle{
+   border-radius: 50px;
+   margin-bottom: 20px;
+ }
+ /* model stytle */
+ .modal-title{
+   font-family: serif;
+ }
+
+ .modal-form-border{
+   border: 1px solid rgb(202, 199, 199);
+   max-width: 46%;
+   margin: 0.5rem;
+   border-radius: 20px;
+ }
+ .modal-img{
+   max-width: 46%;
+   margin: 0.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.help-block ul li{
+   display: none;
+}
+/* for number field   */
+       input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /*  for submit pop up */
+        .modal-para{
+  font-weight: bold;
+  color: black;
+}
+
+.modal-content {
+    border-radius: 20px
+}       
+.modal-content-bg{
+   background-color: rgb(234 240 241);
+}
+
+ /* Custom CSS for responsive design  */
+             
+               /* Media query for small screens */
+               @media (max-width: 576px) {
+                 /* Hide the left panel image */
+                 .modal-img {
+                   display: none;
+                 }
+             
+                 /* Remove the border around the form */
+                 .modal-form-border {
+                   border: none;
+                 }
+                 /* Change the modal size from large to small */
+
+                    #modalDialog {
+                   max-width: 300px !important;
+                   margin-top: 4.5rem;
+                   margin-left: 2.8rem;
+
+                 }    
+                  .modal-form-border{
+                   max-width: 95%; 
+                     margin: 0.5rem;             
+                }   
+               }
+
+     
+        .whatsapp-button {
+            position: fixed; 
+            bottom: 27px; 
+            left: 25px; 
+            z-index: 1000; 
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #25d366;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            animation: bounce 2s infinite;
+        }
+
+        /* WhatsApp icon */
+        .whatsapp-button img {
+         width: 90px;
+         height: 70px;
+        }
+
+        /* Bounce animation */
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Hover effect */
+        .whatsapp-button:hover {
+            background-color: #128c7e;
+            animation: none;
+        }
+        /* whatsapp button  end*/
+
+
+
+
+
+        
+
+
+        /* <!-- Ragini code css --> */
+
+     .icons{
+    position:fixed;
+    top:30% ;
+    right: 0%;
+    display:flex;
+    flex-direction: column;
+}
+
+.icons a{
+    text-decoration: none;
+    text-transform:uppercase;
+    margin:2px;
+    padding:10px;
+    border-radius:50px 0px 0px 50px;
+    font-size:12px;
+    transition:all 0.5s;
+    text-align:left;
+     transform:translate(170px ,0px);
+     font-family:'Oswald',sans-serif;
+    
+}
+.facebook{
+    background-color: #5599dd;
+    color:white;
+}
+
+.instagram{
+   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  
+
+       color:white; 
+}
+.twitter{
+  /*  background-color: #51c5ff;*/
+  background-color: #0a0808;
+       color:white; 
+}
+.linkdin{
+   background-color: #2c7fd1;
+    color:white;
+
+}
+a:hover, a:focus {
+text-decoration: none !important;
+color: white;
+
+}
+.icons a i{
+/* background-color: white; */
+height:22px;
+width:20px;
+color:white;
+text-align: center;
+line-height: 20px;
+border-radius: 50%;        
+}
+.icons a:hover{
+transform:translate(0px, 0px);
+}
+#images{
+ width:25px;
+ height:25px;
+ border-radius: 50px;
+}  
+#images1{
+ width:25px;
+ height:25px;
+ border-radius: 50px;
+}
+#images3{
+    width:25px;
+    height:25px;
+    border-radius: 50px;
+   
+}
+#images4{
+   width:25px;
+    height:25px;
+    border-radius: 50px;
+}

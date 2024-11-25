@@ -1,0 +1,83 @@
+ /* --anshucss */
+
+ .modal-backdrop{
+  z-index:0;
+}
+.modal-backdrop.show{
+  opacity: 0;
+} 
+.quote-pera{
+   font-weight: bold;
+   color: gray;
+}
+.btnstyle{
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+/* model stytle */
+.modal-title{
+  font-family: serif;
+}
+
+.modal-form-border{
+  border: 1px solid rgb(202, 199, 199);
+  max-width: 46%;
+  margin: 0.5rem;
+  border-radius: 20px;
+}
+.modal-img{
+  max-width: 46%;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help-block ul li{
+  display: none;
+}
+/* for number field   */
+      input[type="number"]::-webkit-outer-spin-button,
+       input[type="number"]::-webkit-inner-spin-button {
+           -webkit-appearance: none;
+           margin: 0;
+       }
+
+       /*  for submit pop up */
+       .modal-para{
+ font-weight: bold;
+ color: black;
+}
+
+.modal-content {
+   border-radius: 20px
+}       
+.modal-content-bg{
+  background-color: rgb(234 240 241);
+}
+
+/* Custom CSS for responsive design  */
+            
+              /* Media query for small screens */
+              @media (max-width: 576px) {
+                /* Hide the left panel image */
+                .modal-img {
+                  display: none;
+                }
+            
+                /* Remove the border around the form */
+                .modal-form-border {
+                  border: none;
+                }
+                /* Change the modal size from large to small */
+
+                   #modalDialog {
+                  max-width: 300px !important;
+                  margin-top: 4.5rem;
+                  margin-left: 2.8rem;
+
+                }    
+                 .modal-form-border{
+                  max-width: 95%; 
+                    margin: 0.5rem;             
+               }   
+              }
